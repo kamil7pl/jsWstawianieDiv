@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>formularz js</title>
+</head>
+<body>
+<div class="test">
+
+</div>
+    <script>
+const el = document.createElement("div");
+el.innerText = "Tekst div";
+el.style.backgroundColor = "red";
+el.setAttribute("title", "To jest tekst w dymku.");
+
+
+const divX = document.querySelector(".test");
+divX.appendChild(el);
+	</script>
+</body>
+</html>
